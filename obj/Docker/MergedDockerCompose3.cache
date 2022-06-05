@@ -1,0 +1,10 @@
+services:
+  nwo_owmservice:
+    build:
+      context: C:\Users\sunk0\source\repos\NWO_OWMservice
+      dockerfile: NWO_OWMservice/Dockerfile
+    image: nwoowmservice
+    ports:
+    - published: 8080
+      target: 80
+version: '3.4'

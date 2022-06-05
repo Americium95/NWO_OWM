@@ -1,0 +1,7 @@
+services:
+  nwo_owmservice:
+    build:
+      context: C:\Users\sunk0\source\repos\NWO_OWMservice
+      dockerfile: NWO_OWMservice/Dockerfile
+    image: nwoowmservice
+version: '3.4'

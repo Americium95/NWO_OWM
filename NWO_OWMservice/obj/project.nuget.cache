@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lWKoUTqAECOeeRx+1sQpIkdehode94X74gkinolclaFMRmXkz+wiFaeatVzw94L969Lwf4RngEkhRwauWqEtZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sunk0\\Documents\\GitHub\\NWO_OWM\\NWO_OWM\\NWO_OWMservice\\NWO_OWMservice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sunk0\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
+    "C:\\Users\\sunk0\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

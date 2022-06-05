@@ -1,0 +1,16 @@
+services:
+  nwo_owmservice:
+    build:
+      context: C:\Users\sunk0\source\repos\NWO_OWMservice
+      dockerfile: NWO_OWMservice/Dockerfile
+    deploy:
+      resources:
+        limits:
+          cpus: 0.001
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: nwoowmservice
+    ports:
+    - published: 29000
+      target: 29000
+version: '3.4'

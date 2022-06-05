@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NWO_OWMservice": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+    }
+  }
+}

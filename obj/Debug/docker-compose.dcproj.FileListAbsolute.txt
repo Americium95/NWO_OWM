@@ -1,0 +1,9 @@
+C:\Users\sunk0\source\repos\NWO_OWMservice\bin\Debug\NWO_OWMservice.deps.json
+C:\Users\sunk0\source\repos\NWO_OWMservice\bin\Debug\NWO_OWMservice.runtimeconfig.json
+C:\Users\sunk0\source\repos\NWO_OWMservice\bin\Debug\NWO_OWMservice.exe
+C:\Users\sunk0\source\repos\NWO_OWMservice\bin\Debug\NWO_OWMservice.dll
+C:\Users\sunk0\source\repos\NWO_OWMservice\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sunk0\source\repos\NWO_OWMservice\bin\Debug\NWO_OWMservice.pdb
+C:\Users\sunk0\source\repos\NWO_OWMservice\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\sunk0\source\repos\NWO_OWMservice\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\Users\sunk0\source\repos\NWO_OWMservice\obj\Debug\docker-compose.dcproj.CopyComplete

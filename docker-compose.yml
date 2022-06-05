@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  nwo_owmservice:
+    image: ${DOCKER_REGISTRY-}nwoowmservice
+    build:
+      context: .
+      dockerfile: NWO_OWMservice/Dockerfile
