@@ -1,15 +1,5 @@
-
-bin/Debug/Newtonsoft.Json.dll
 .vs/NWO_OWMservice/FileContentIndex/read.lock
-bin/Debug/NWO_OWMservice.deps.json
-bin/Debug/NWO_OWMservice.dll
-bin/Debug/NWO_OWMservice.exe
-bin/Debug/NWO_OWMservice.pdb
-bin/Debug/NWO_OWMservice.runtimeconfig.json
-.vs/NWO_OWMservice/FileContentIndex/66b5fd03-f18d-4b71-9639-2af54df5c06b.vsidx
-.vs/NWO_OWMservice/FileContentIndex/3bc61456-0b9e-41fe-8ccf-ee9a9d84cb94.vsidx
-.vs/NWO_OWMservice/FileContentIndex/95e5b4c5-8c86-44a1-9c32-895b36ad95fe.vsidx
-.vs/NWO_OWMservice/FileContentIndex/9b274577-13df-45c6-8679-3a4293c1eee0.vsidx
+bin/Debug
+.vs/NWO_OWMservice/FileContentIndex
 NWO_OWMservice/Properties/Resources.Designer.cs
 NWO_OWMservice/Properties/Resources.resx
-.vs/NWO_OWMservice/FileContentIndex/3bc61456-0b9e-41fe-8ccf-ee9a9d84cb94.vsidx
