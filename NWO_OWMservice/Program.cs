@@ -9,16 +9,19 @@ string OWMKey = NWO_OWMservice.Properties.Resources.OWMKEY;
 
 DateTime startTime = DateTime.MinValue;
 
-wather[,] wathers = new wather[20,10];
+int x = 40;
+int y = 20;
+
+wather[,] wathers = new wather[40,20];
 
 
 startTime = DateTime.UtcNow;
-for (int i = 0; i < 20; i++)
-    for (int j = 0; j < 10; j++)
+for (int i = 0; i < 40; i++)
+    for (int j = 0; j < 20; j++)
     {
         wathers[i, j] = GetOWMData(i, j);
         Console.Clear();
-        Console.WriteLine((i * 10 + j + 1) + "/200");
+        Console.WriteLine((i * 20 + j + 1) + "/800");
     }
 
 
@@ -44,7 +47,7 @@ Thread updateThread = new(() =>
                 for (int j = 0; j < 10; j++)
                 {
                     wathers[i,j]=GetOWMData(i,j);
-                    Console.WriteLine((i*10+j+1)+"/200");
+                    Console.WriteLine((i*20+j+1)+"/800");
                     Thread.Sleep(500);
                 }
             
@@ -106,6 +109,7 @@ async void AsyncTcpProcess(object o)
             {
                 if (float.TryParse(val[2].Split('=')[1], System.Globalization.NumberStyles.Any, culInfo, out lat))
                 {
+                    Console.WriteLine(lon + "," + lat);
                     wather w = GetPointWather(lon, lat);
                     sb.Append("{\"temp\":");
                     sb.Append(w.main.temp.ToString());
@@ -141,8 +145,8 @@ async void AsyncTcpProcess(object o)
 
 wather GetPointWather(float x,float y)
 {
-    x = Math.Min( ((x%360 + 180) / 36) ,19 );
-    y = Math.Min( ((y + 90) / 18) ,9 );
+    x = (x / 9+20) % 40;
+    y = Math.Min( ((90-y) / 9) ,19 );
 
     wather Data = new wather();
 
@@ -180,11 +184,11 @@ wather GetPointWather(float x,float y)
 wather GetOWMData(int x,int y)
 {
 
-    string jsonString = Request_Json("https://api.openweathermap.org/data/2.5/weather?lat=" + (20 * y - 90) + "&lon=" + (18 * x - 180) + "&appid=" + OWMKey);
+    string jsonString = Request_Json("https://api.openweathermap.org/data/2.5/weather?lat=" + (90 - 9 * y) + "&lon=" + (9 * x - 180) + "&appid=" + OWMKey);
 
     if (jsonString==string.Empty)
     {
-        jsonString = Request_Json("https://api.openweathermap.org/data/2.5/weather?lat=" + (20 * y - 90) + "&lon=" + (18 * x - 180) + "&appid=" + OWMKey);
+        jsonString = Request_Json("https://api.openweathermap.org/data/2.5/weather?lat=" + (90 - 9 * y) + "&lon=" + (9 * x - 180) + "&appid=" + OWMKey);
     }
     wather pObj = JsonConvert.DeserializeObject<wather>(jsonString);
 

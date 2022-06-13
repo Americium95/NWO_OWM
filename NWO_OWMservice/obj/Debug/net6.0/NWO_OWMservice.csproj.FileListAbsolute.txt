@@ -5,3 +5,15 @@ C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\
 C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.AssemblyInfoInputs.cache
 C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.AssemblyInfo.cs
 C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.csproj.CoreCompileInputs.cache
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\bin\Debug\net6.0\NWO_OWMservice.exe
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\bin\Debug\net6.0\NWO_OWMservice.deps.json
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\bin\Debug\net6.0\NWO_OWMservice.runtimeconfig.json
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\bin\Debug\net6.0\NWO_OWMservice.dll
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\bin\Debug\net6.0\NWO_OWMservice.pdb
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.csproj.CopyComplete
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.dll
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\refint\NWO_OWMservice.dll
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.pdb
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\NWO_OWMservice.genruntimeconfig.cache
+C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\obj\Debug\net6.0\ref\NWO_OWMservice.dll

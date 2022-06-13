@@ -61,7 +61,7 @@ namespace NWO_OWMservice.Properties {
         }
         
         /// <summary>
-        ///   과(와) 유사한 지역화된 문자열을 찾습니다.
+        ///   982b3d4f4df68a4954f7c78958bd8de2과(와) 유사한 지역화된 문자열을 찾습니다.
         /// </summary>
         internal static string OWMKEY {
             get {

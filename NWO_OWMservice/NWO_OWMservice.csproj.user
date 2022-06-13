@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ActiveDebugProfile>Docker</ActiveDebugProfile>
-    <_LastSelectedProfileId>C:\Users\sunk0\source\repos\NWO_OWMservice\NWO_OWMservice\Properties\PublishProfiles\registry.hub.docker.com.pubxml</_LastSelectedProfileId>
+    <ActiveDebugProfile>NWO_OWMservice</ActiveDebugProfile>
+    <_LastSelectedProfileId>C:\Users\sunk0\Documents\GitHub\NWO_OWM\NWO_OWM\NWO_OWMservice\Properties\PublishProfiles\registry.hub.docker.com.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
