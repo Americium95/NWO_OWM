@@ -43,8 +43,8 @@ Thread updateThread = new(() =>
         {
             startTime = DateTime.UtcNow;
             Ltime = (DateTime.UtcNow - startTime);
-            for(int i=0;i<20;i++)
-                for (int j = 0; j < 10; j++)
+            for(int i=0;i<40;i++)
+                for (int j = 0; j < 20; j++)
                 {
                     wathers[i,j]=GetOWMData(i,j);
                     Console.WriteLine((i*20+j+1)+"/800");
